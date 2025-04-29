@@ -25,7 +25,6 @@ struct RootView: View {
     func rootView() -> some View {
         switch rootManagerViewModel.activeView {
         case .splash:
-            
             Text("Disney Characters")
                 .font(.system(size: 58, weight: .bold, design: .rounded))
                 .foregroundColor(.indigo)
@@ -36,10 +35,8 @@ struct RootView: View {
                     
                 }
         case .Home(viewModel: let viewModel):
-            
             HomeView(viewModel: viewModel)
         }
-        
     }
 }
 

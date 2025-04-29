@@ -10,9 +10,7 @@ protocol CharactersServiceProtocol: AnyObject {
     var serviceConfig: NetworkingConfigurable {get set}
     var serviceManagaer: ServiceManagerProtocol {get set}
     func fetch() async throws -> APIResponse
-    func dowloadImg(from url: String) async throws -> Data
 }
-
 
 class CharactersService: CharactersServiceProtocol {
     
@@ -25,13 +23,8 @@ class CharactersService: CharactersServiceProtocol {
             let result: APIResponse = try await serviceManagaer.fetch1(url: url, header: header, timeOut: timeInterval, httpMethod: .GET, body: nil)
             return result
         } catch {
-            // Aquí puedes personalizar el manejo de errores
             throw NSError(domain: "ServiceError", code: 1003, userInfo: [NSLocalizedDescriptionKey: "Error al realizar la solicitud: \(error.localizedDescription)"])
         }
-    }
-    
-    func dowloadImg(from url: String) async throws -> Data {
-        try await serviceManagaer.dowloadResources(from: url)
     }
     
     var serviceConfig: NetworkingConfigurable

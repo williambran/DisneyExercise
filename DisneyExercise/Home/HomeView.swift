@@ -11,6 +11,7 @@ struct HomeView: View {
     
     @ObservedObject var viewModel: HomeViewModel
     @EnvironmentObject private var rootManagerViewModel: RootViewModel
+    @State private var showingFavorites = false
     
     let columns = [
         GridItem(.flexible()),
@@ -22,8 +23,10 @@ struct HomeView: View {
                 LazyVGrid(columns: columns, spacing: 15) {
                     ForEach(viewModel.data, id: \.id) { item in
                         VStack {
-                            CardContainer(title: item.name ?? "", isFav: false, onFavTapped: {
-                                viewModel.saveCharacter(item)
+                            CardContainer(title: item.name ?? "",
+                                          isFav: item.fav,
+                                          onFavTapped: {
+                                 viewModel.saveCharacterFavorite(item)
                             }) {
                                 CoverImageView(urlImg: item.imageUrl)
                             }
@@ -35,8 +38,13 @@ struct HomeView: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    FloatFavButton(icon: "star") {
-                        viewModel.getCharacterFavorites()
+                    FloatFavButton(icon: showingFavorites ? "xmark.circle.fill" : "star.fill") {
+                        showingFavorites.toggle()
+                        if showingFavorites {
+                            viewModel.getCharacterFavorites()
+                        } else {
+                            await viewModel.loadCharacters()
+                        }
                     }
                     .frame(width: 60)
                     .padding()
@@ -53,9 +61,11 @@ struct HomeView: View {
 
 struct HomeView_Preciews: PreviewProvider {
     static var previews: some View {
+        
         let repository = HomeRepository(configService: nil)
-        let vm = HomeViewModel(repository: repository )
-        vm.data = [CharacterModel(id: 1, name: "miky", imageUrl: "", sourceUrl: "")]
+        let dataMock = [CharacterModel(id: 1, name: "miky", imageUrl: "", sourceUrl: ""), CharacterModel(id: 2, name: "miky", imageUrl: "", sourceUrl: "")]
+        let vm = HomeViewModel(repository: repository, initData: dataMock )
+        
         return HomeView(viewModel: vm)
     }
 }

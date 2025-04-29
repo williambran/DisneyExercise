@@ -20,17 +20,6 @@ protocol HomeRepositoryProtocol {
 }
 
 class HomeRepository: HomeRepositoryProtocol {
-    func saveFavoriteCharacter(_ character: CharacterModel) {
-        
-    }
-    
-
-    
-    
-    
-    
-
-    
 
     var configLocal:  LocalManagerProtocol?
     var configService: CharactersServiceProtocol?
@@ -42,24 +31,32 @@ class HomeRepository: HomeRepositoryProtocol {
     
     func fetchCharacters() async throws -> [CharacterModel] {
         guard let configService = configService else {
-            return fetchCharacterFav() }
+            throw NSError(domain: "HomeRepository", code: 1000, userInfo: [NSLocalizedDescriptionKey: "Servicio no disponible (simulación en preview)"])
+        }
         
         do {
             let modelCaharcters = try await  configService.fetch().data
             saveCharacters(modelCaharcters)
-            return modelCaharcters
+            return getCharacters()
         } catch {
-            return fetchCharacterFav()
+            return getCharacters()
         }
         
     }
 
     func fetchCharacterFav() -> [CharacterModel] {
-        configLocal?.getCharacters() ?? []
+        configLocal?.getCharactersFavorites() ?? []
     }
     
     func saveCharacters(_ characters: [CharacterModel]) {
         configLocal?.saveCharacters(characters)
     }
     
+    func saveFavoriteCharacter(_ character: CharacterModel) {
+        configLocal?.saveFavoriteCharacter(character)
+    }
+    
+    func getCharacters() -> [CharacterModel]{
+        configLocal?.getCharacters() ?? []
+    }
 }

@@ -42,8 +42,6 @@
 				Home/HomeViewModel.swift,
 				Root/RootView.swift,
 				Root/RootViewModel.swift,
-				Splash/SplashView.swift,
-				Splash/SplashViewModel.swift,
 			);
 			target = 5C3465BD2DBCDC3E00684FD4 /* DisneyExerciseTests */;
 		};
@@ -59,8 +57,6 @@
 				Home/HomeViewModel.swift,
 				Root/RootView.swift,
 				Root/RootViewModel.swift,
-				Splash/SplashView.swift,
-				Splash/SplashViewModel.swift,
 			);
 			target = 5C3465C72DBCDC3E00684FD4 /* DisneyExerciseUITests */;
 		};

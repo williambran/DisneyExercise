@@ -17,6 +17,7 @@ class RootViewModel: ObservableObject {
     }
     
     func getActiveView() async {
+        //Inyection DEpendencie
         let configureService: NetworkingConfigurable = ConfigService(
             baseURL: URL(string: "https://api.disneyapi.dev/character")!,
             endPoint: "",

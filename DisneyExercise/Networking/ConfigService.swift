@@ -49,6 +49,3 @@ enum ResponseStatusCode: Int {
     }
 }
 
-enum ErrorResponse: Error {
-    case Generic
-}

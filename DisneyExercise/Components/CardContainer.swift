@@ -14,7 +14,6 @@ struct CardContainer<Content: View>: View {
     
     @ViewBuilder var content: () -> Content
     
-    
     var body: some View {
         ZStack() {
             content()
@@ -24,9 +23,7 @@ struct CardContainer<Content: View>: View {
                     Text(title).foregroundColor(Color.white)
                         .frame(maxWidth: .infinity)
                     Button(action: {
-                        if !isFav {
-                            onFavTapped()
-                        }
+                        onFavTapped()
                     }) {
                         Image(systemName: isFav ? "star.fill" : "star")
                             .foregroundColor(.yellow)

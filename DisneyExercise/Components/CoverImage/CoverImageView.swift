@@ -26,7 +26,5 @@ struct CoverImageView: View {
 }
 
 #Preview {
-    
-    var viewModel = CoverImageViewModel(url: "")
     CoverImageView(urlImg: "")
 }
