@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5C3465BF2DBCDC3E00684FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C3465A62DBCDC3C00684FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3465AD2DBCDC3C00684FD4;
+			remoteInfo = DisneyExercise;
+		};
+		5C3465C92DBCDC3E00684FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C3465A62DBCDC3C00684FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3465AD2DBCDC3C00684FD4;
+			remoteInfo = DisneyExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C3465AE2DBCDC3C00684FD4 /* DisneyExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3465BE2DBCDC3E00684FD4 /* DisneyExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3465C82DBCDC3E00684FD4 /* DisneyExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C3465E02DBCDE5200684FD4 /* Exceptions for "DisneyExercise" folder in "DisneyExerciseTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/CardContainer.swift,
+				Components/CoverImage/CoverImageView.swift,
+				Components/CoverImage/CoverImageViewModel.swift,
+				Components/FloatFavButton.swift,
+				Home/CharacterModel.swift,
+				Home/HomeView.swift,
+				Home/HomeViewModel.swift,
+				Root/RootView.swift,
+				Root/RootViewModel.swift,
+				Splash/SplashView.swift,
+				Splash/SplashViewModel.swift,
+			);
+			target = 5C3465BD2DBCDC3E00684FD4 /* DisneyExerciseTests */;
+		};
+		5C3465E12DBCDE5200684FD4 /* Exceptions for "DisneyExercise" folder in "DisneyExerciseUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Components/CardContainer.swift,
+				Components/CoverImage/CoverImageView.swift,
+				Components/CoverImage/CoverImageViewModel.swift,
+				Components/FloatFavButton.swift,
+				Home/CharacterModel.swift,
+				Home/HomeView.swift,
+				Home/HomeViewModel.swift,
+				Root/RootView.swift,
+				Root/RootViewModel.swift,
+				Splash/SplashView.swift,
+				Splash/SplashViewModel.swift,
+			);
+			target = 5C3465C72DBCDC3E00684FD4 /* DisneyExerciseUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C3465B02DBCDC3C00684FD4 /* DisneyExercise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C3465E02DBCDE5200684FD4 /* Exceptions for "DisneyExercise" folder in "DisneyExerciseTests" target */,
+				5C3465E12DBCDE5200684FD4 /* Exceptions for "DisneyExercise" folder in "DisneyExerciseUITests" target */,
+			);
+			path = DisneyExercise;
+			sourceTree = "<group>";
+		};
+		5C3465C12DBCDC3E00684FD4 /* DisneyExerciseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisneyExerciseTests;
+			sourceTree = "<group>";
+		};
+		5C3465CB2DBCDC3E00684FD4 /* DisneyExerciseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisneyExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3465AB2DBCDC3C00684FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3465BB2DBCDC3E00684FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3465C52DBCDC3E00684FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3465A52DBCDC3C00684FD4 = {
+			isa = PBXGroup;
+			children = (
+				5C3465B02DBCDC3C00684FD4 /* DisneyExercise */,
+				5C3465C12DBCDC3E00684FD4 /* DisneyExerciseTests */,
+				5C3465CB2DBCDC3E00684FD4 /* DisneyExerciseUITests */,
+				5C3465AF2DBCDC3C00684FD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3465AF2DBCDC3C00684FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C3465AE2DBCDC3C00684FD4 /* DisneyExercise.app */,
+				5C3465BE2DBCDC3E00684FD4 /* DisneyExerciseTests.xctest */,
+				5C3465C82DBCDC3E00684FD4 /* DisneyExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C3465AD2DBCDC3C00684FD4 /* DisneyExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3465D22DBCDC3E00684FD4 /* Build configuration list for PBXNativeTarget "DisneyExercise" */;
+			buildPhases = (
+				5C3465AA2DBCDC3C00684FD4 /* Sources */,
+				5C3465AB2DBCDC3C00684FD4 /* Frameworks */,
+				5C3465AC2DBCDC3C00684FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5C3465B02DBCDC3C00684FD4 /* DisneyExercise */,
+			);
+			name = DisneyExercise;
+			packageProductDependencies = (
+			);
+			productName = DisneyExercise;
+			productReference = 5C3465AE2DBCDC3C00684FD4 /* DisneyExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C3465BD2DBCDC3E00684FD4 /* DisneyExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3465D52DBCDC3E00684FD4 /* Build configuration list for PBXNativeTarget "DisneyExerciseTests" */;
+			buildPhases = (
+				5C3465BA2DBCDC3E00684FD4 /* Sources */,
+				5C3465BB2DBCDC3E00684FD4 /* Frameworks */,
+				5C3465BC2DBCDC3E00684FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C3465C02DBCDC3E00684FD4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C3465C12DBCDC3E00684FD4 /* DisneyExerciseTests */,
+			);
+			name = DisneyExerciseTests;
+			packageProductDependencies = (
+			);
+			productName = DisneyExerciseTests;
+			productReference = 5C3465BE2DBCDC3E00684FD4 /* DisneyExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C3465C72DBCDC3E00684FD4 /* DisneyExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3465D82DBCDC3E00684FD4 /* Build configuration list for PBXNativeTarget "DisneyExerciseUITests" */;
+			buildPhases = (
+				5C3465C42DBCDC3E00684FD4 /* Sources */,
+				5C3465C52DBCDC3E00684FD4 /* Frameworks */,
+				5C3465C62DBCDC3E00684FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C3465CA2DBCDC3E00684FD4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C3465CB2DBCDC3E00684FD4 /* DisneyExerciseUITests */,
+			);
+			name = DisneyExerciseUITests;
+			packageProductDependencies = (
+			);
+			productName = DisneyExerciseUITests;
+			productReference = 5C3465C82DBCDC3E00684FD4 /* DisneyExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3465A62DBCDC3C00684FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5C3465AD2DBCDC3C00684FD4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5C3465BD2DBCDC3E00684FD4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5C3465AD2DBCDC3C00684FD4;
+					};
+					5C3465C72DBCDC3E00684FD4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5C3465AD2DBCDC3C00684FD4;
+					};
+				};
+			};
+			buildConfigurationList = 5C3465A92DBCDC3C00684FD4 /* Build configuration list for PBXProject "DisneyExercise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C3465A52DBCDC3C00684FD4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C3465AF2DBCDC3C00684FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C3465AD2DBCDC3C00684FD4 /* DisneyExercise */,
+				5C3465BD2DBCDC3E00684FD4 /* DisneyExerciseTests */,
+				5C3465C72DBCDC3E00684FD4 /* DisneyExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3465AC2DBCDC3C00684FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3465BC2DBCDC3E00684FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3465C62DBCDC3E00684FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3465AA2DBCDC3C00684FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3465BA2DBCDC3E00684FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3465C42DBCDC3E00684FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3465C02DBCDC3E00684FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3465AD2DBCDC3C00684FD4 /* DisneyExercise */;
+			targetProxy = 5C3465BF2DBCDC3E00684FD4 /* PBXContainerItemProxy */;
+		};
+		5C3465CA2DBCDC3E00684FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3465AD2DBCDC3C00684FD4 /* DisneyExercise */;
+			targetProxy = 5C3465C92DBCDC3E00684FD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C3465D02DBCDC3E00684FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C3465D12DBCDC3E00684FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C3465D32DBCDC3E00684FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisneyExercise/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiki.DisneyExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C3465D42DBCDC3E00684FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisneyExercise/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiki.DisneyExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C3465D62DBCDC3E00684FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiki.DisneyExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisneyExercise";
+			};
+			name = Debug;
+		};
+		5C3465D72DBCDC3E00684FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiki.DisneyExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisneyExercise";
+			};
+			name = Release;
+		};
+		5C3465D92DBCDC3E00684FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiki.DisneyExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyExercise;
+			};
+			name = Debug;
+		};
+		5C3465DA2DBCDC3E00684FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QNXMD5AL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiki.DisneyExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DisneyExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3465A92DBCDC3C00684FD4 /* Build configuration list for PBXProject "DisneyExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3465D02DBCDC3E00684FD4 /* Debug */,
+				5C3465D12DBCDC3E00684FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3465D22DBCDC3E00684FD4 /* Build configuration list for PBXNativeTarget "DisneyExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3465D32DBCDC3E00684FD4 /* Debug */,
+				5C3465D42DBCDC3E00684FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3465D52DBCDC3E00684FD4 /* Build configuration list for PBXNativeTarget "DisneyExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3465D62DBCDC3E00684FD4 /* Debug */,
+				5C3465D72DBCDC3E00684FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3465D82DBCDC3E00684FD4 /* Build configuration list for PBXNativeTarget "DisneyExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3465D92DBCDC3E00684FD4 /* Debug */,
+				5C3465DA2DBCDC3E00684FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3465A62DBCDC3C00684FD4 /* Project object */;
+}
